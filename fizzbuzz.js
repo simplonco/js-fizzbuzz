@@ -17,4 +17,4 @@ var fizzbuzz = function (number)  {
 };
 fizzbuzz(30);
 
-//module.exports = fizzbuzz;
+module.exports = fizzbuzz;
