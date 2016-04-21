@@ -8,13 +8,13 @@ var fizzbuzz = function (x)  {
    if ((x%2) ===1){
      return "2";
    }
-   if ((x%3) ===1){
+   if ((x%3&&(x%6) ===1){
      return "Fizz";
    }
    if ((x%5) ===1){
      return "Buzz";
    }
-   if ((x%3)&&(x%5) ===1){
+   if ((x%30) ===1){
      return "FizzBuzz";
    }
 };
