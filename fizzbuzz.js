@@ -4,10 +4,9 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function ()  {
-//
-// YOUR CODE GOES HERE
-//
+var fizzbuzz = function(input) {
+    var val = input * 5;
+    return val;
 };
 
 module.exports = fizzbuzz;
