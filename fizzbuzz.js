@@ -6,16 +6,16 @@
 
 var fizzbuzz = function ()  {
   fizzbuzz.prototype.hello = function(num) {
-    if (num % 3 ==1){
+    if ((num % 3) ===1){
       return "Fizz";
-    }else if (num % 5 == 1) {
+    }
+    if ((num % 5) === 1) {
       return "Buzz";
 
-    }else if ((num%3 && num%5) == 1) {
+    }
+    if ((num%3 && num%5) === 1) {
       return FizzBuzz;
     }
-
-    return "Hiiii";
   };
 
 
