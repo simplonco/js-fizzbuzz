@@ -26,6 +26,6 @@ fizzbuzz(30) => "FizzBuzz"
 
 May the force be with you
 
-## To go further
+## To go further..
 
 Look at: <https://github.com/jasmine/jasmine>
