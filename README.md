@@ -28,4 +28,4 @@ May the force be with you
 
 ## To go further..
 
-Look at: <https://github.com/jasmine/jasmine>
+Look at: <https://github.com/jasmine/jasmine> (T.D.D.)
