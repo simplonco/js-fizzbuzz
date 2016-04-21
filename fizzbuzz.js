@@ -4,10 +4,19 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function (x)  {
-//
-// YOUR CODE GOES HERE
-//
+var fizzbuzz = function(x) {
+    if (x % 3 == 0) {
+        return "fizz";
+    }
+    else if (x % 5 == 0) {
+        return "buzz";
+    }
+    else if (x % 3 == 0 && x % 5 == 0) {
+        return "fizzbuzz";
+    }
+    else {
+        return x;
+    }
 };
 
 module.exports = fizzbuzz;
