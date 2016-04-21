@@ -5,9 +5,18 @@
 // expected here.
 
 var fizzbuzz = function (x)  {
-//
-// YOUR CODE GOES HERE
-//
+   if ((x%2) ===1){
+     return "2";
+   }
+   if ((x%3&&(x%6) ===1){
+     return "Fizz";
+   }
+   if ((x%5) ===1){
+     return "Buzz";
+   }
+   if ((x%30) ===1){
+     return "FizzBuzz";
+   }
 };
 
 module.exports = fizzbuzz;
