@@ -5,8 +5,9 @@
 // expected here.
 
 var fizzbuzz = function(input) {
-    var val = input * 5;
-    return val;
-};
+    if (input % 3 === 0 ){ console.log(fizz);}
+      else if (input % 5 === 0){console.log(buzz);}
+        else if (input % 3 == 0 || input % === 0 ){console.log(fizzbuzz);}
+}else { console.log(input);}
 
 module.exports = fizzbuzz;
