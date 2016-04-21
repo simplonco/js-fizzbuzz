@@ -5,23 +5,18 @@
 // expected here.
 
 var fizzbuzz = function(x) {
-    if (x%3==0) {
-return "Fizz";
+    if (x % 3 == 0) {
+        return "fizz";
     }
-    if
-    else (x%5==0){
-return "Buzz" ;
+    else if (x % 5 == 0) {
+        return "buzz";
     }
-
-    if
-    else (x%3 ==0&&x%5==0)
-{
-  return "FizzBuzz";
-}
+    else if (x % 3 == 0 && x % 5 == 0) {
+        return "fizzbuzz";
+    }
     else {
-      return "x"
+        return x;
     }
-
 };
 
 module.exports = fizzbuzz;
