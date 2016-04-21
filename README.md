@@ -13,12 +13,14 @@
 
 ## Examples
 
-* fizzbuzz(2) -> 2
-* fizzbuzz(3) -> Fizz
-* fizzbuzz(5) -> Buzz
-* fizzbuzz(6) -> Fizz
-* fizzbuzz(11) -> 11
-* fizzbuzz(30) -> FizzBuzz
+```javascript
+fizzbuzz(2) => 2
+fizzbuzz(3) => "Fizz"
+fizzbuzz(5) => "Buzz"
+fizzbuzz(6) => "Fizz"
+fizzbuzz(11) => 11
+fizzbuzz(30) => "FizzBuzz"
+```
 
 ## GO, GO, GO!
 
