@@ -1,6 +1,6 @@
-var fizzbuzz = require("../lib/fizzbuzz")();
+var fizzbuzz = require('./fizzbuzz')();
 
-describe('fizzbuzz-js-kata', function(){
+describe('fizzbuzz', function() {
 
   it('should have one when one passed', function() {
     var result = fizzbuzz.fizzbuzz(1);
@@ -23,4 +23,3 @@ describe('fizzbuzz-js-kata', function(){
   });
 
 });
-
