@@ -4,7 +4,7 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function (x)  {
+var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
 //
