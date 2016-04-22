@@ -20,7 +20,7 @@ var fizzbuzz = function (num)  {
  }else{
       return result= "";
  }
- alert(result) ;
+
 };
 
 module.exports = fizzbuzz;
