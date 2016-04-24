@@ -6,15 +6,19 @@
 
 var fizzbuzz = function (number)  {
   if (number % 3 == 0) {
-    console.log("number is a multiple of 3");
+    console.log("fizz");
   }
   if (number % 5 == 0) {
-    console.log("number is a multiple of 5");
+    console.log("buzz");
   }
   if ((number % 3 == 0) && (number % 5 == 0)) {
-    console.log("number is a multiple of 3 and 5");
+    console.log("fizzbuzz");
+  }
+  if ((number % 3 != 0) && (number % 5 != 0)) {
+    console.log("number");
   }
 };
 fizzbuzz(30);
+fizzbuzz(11);
 
 module.exports = fizzbuzz;
