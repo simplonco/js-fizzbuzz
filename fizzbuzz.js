@@ -14,7 +14,7 @@ var fizzbuzz = function(n) {
     } else if (n % 5 == 0) {
         return 'buzz';
     } else {
-        return n;
+        return n
     }
     var fizzbuzz = function(x) {}
 };
