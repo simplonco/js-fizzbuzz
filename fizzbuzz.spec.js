@@ -1,4 +1,4 @@
-var fizzbuzz = require('./fizzbuzz')();
+var fizzbuzz = require('./fizzbuzz');
 
 describe('fizzbuzz', function() {
 
