@@ -4,7 +4,7 @@ describe('fizzbuzz', function() {
 
   it('should have one when one passed', function() {
     var result = fizzbuzz.fizzbuzz(1);
-    expect(result).toBe('1');
+    expect(result).toBe(1);
   });
 
   it('should have "fizz" when three passed', function() {
