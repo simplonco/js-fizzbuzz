@@ -4,7 +4,7 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-<< << << < HEAD
+
 var fizzbuzz = function(n) {
         if (n % 15 == 0) {
             return 'fizzbuzz';
