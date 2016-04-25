@@ -3,6 +3,8 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 //expected here.
 
+'use strict';
+
 var fizzbuzz = function(x) {
   if (x % 3 === 0) {
     console.log("fizz");
