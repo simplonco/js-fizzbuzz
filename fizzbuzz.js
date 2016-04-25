@@ -9,17 +9,17 @@
 var fizzbuzz = function (x) {
 if (((x % 3) == 0)&&((x % 5) == 0))
       {
-         return x = "fizzbuzz" ;
+         return "fizzbuzz" ;
          
        }
   else if (((x % 3) == 0)&&((x % 5) !== 0))
    
-       {  return x= "fizz";
+       {  return "fizz";
             
        }
   else if (((x % 3) !== 0)&&((x % 5) == 0))
   
-      {  return x ="buzz";
+      {  return "buzz";
            
       }
       return x;
