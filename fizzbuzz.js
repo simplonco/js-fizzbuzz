@@ -20,3 +20,14 @@ var fizzbuzz = function(n) {
         };
 
         module.exports = fizzbuzz;
+=======
+'use strict';
+
+var fizzbuzz = function (x) {
+//
+// YOUR CODE GOES HERE
+//
+};
+
+module.exports = { fizzbuzz: fizzbuzz };
+>>>>>>> 05d2ccd889e6965472e403e6a140f3aaaf876548
