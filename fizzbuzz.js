@@ -14,13 +14,13 @@ var fizzbuzz = function(n) {
             return 'buzz';
         } else {
             return n;
-        } === === =
+        } 
         var fizzbuzz = function(x) {
 
         };
 
         module.exports = fizzbuzz;
-=======
+
 'use strict';
 
 var fizzbuzz = function (x) {
@@ -30,4 +30,3 @@ var fizzbuzz = function (x) {
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
->>>>>>> 05d2ccd889e6965472e403e6a140f3aaaf876548
