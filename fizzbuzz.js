@@ -20,4 +20,4 @@ var fizzbuzz = function(n) {
 }
         };
 
-        module.exports = fizzbuzz;
+      module.exports = { fizzbuzz: fizzbuzz };
