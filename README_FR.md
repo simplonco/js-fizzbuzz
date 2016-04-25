@@ -23,7 +23,7 @@ fizzbuzz(30) => "fizzbuzz"
 
 ## GO, GO, GO !
 
-Que la force soit avec vous :space_invader:
+Que la force soit avec vous :space_invader: !
 
 ## Pour allez plus loin..
 
