@@ -5,8 +5,7 @@
 // expected here.
 
 var fizzbuzz = function (x)  {
-//
-// YOUR CODE GOES HERE
+ fizzbuzz(4);
 if(x<=4){
   console.log("you are so so");
 }
