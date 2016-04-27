@@ -4,16 +4,22 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function(input) {
-    if (input % 3 === 0) {
-        console.log("fizz");
-    } else if (input % 5 === 0) {
-        console.log("buzz");
-    } else if (input % 3 == 0 || input % 5 === 0) {
-        console.log("fizzbuzz");
-    } else {
-        console.log(input);
-    }
-}
+'use strict';
 
-fizzbuzz(5);
+var fizzbuzz = function(x) {
+    //
+    // YOUR CODE GOES HERE
+    //
+    if (x % 3 === 0 && x % 5 !== 0) {
+        return "fizz";
+    } else if (x % 5 === 0 && x % 5 !== 0) {
+        return "buzz";
+    } else if (x % 3 === 0 || x % 5 === 0) {
+        return "fizzbuzz";
+    } else {
+        return x;
+    }
+};
+module.exports = {
+    fizzbuzz: fizzbuzz
+};
