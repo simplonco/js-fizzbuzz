@@ -4,12 +4,12 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function (number)  {
+var fizzbuzz = function (number) {
   if (number % 3 == 0) {
-    console.log("fizz");
+    console.log('fizz');
   }
   if (number % 5 == 0) {
-    console.log("buzz");
+    console.log('buzz');
   }
   if ((number % 3 == 0) && (number % 5 == 0)) {
     console.log("fizzbuzz");
