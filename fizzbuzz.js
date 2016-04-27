@@ -4,9 +4,9 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function (x)  {
+var fizzbuzz = function (c)  {
  fizzbuzz(4);
-if(x<=4){
+if(c<=4){
   console.log("you are so so");
 }
 else{
