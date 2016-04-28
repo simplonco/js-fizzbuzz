@@ -14,16 +14,16 @@ var fizzbuzz = function(number) {
     } else if (number % 3 == 0) {
       return "fizz";
     } else {
-      return "buzz ";
+      return "buzz";
     }
   } else {
-    return "number";
+    return number;
   }
 };
-console.log(fizzbuzz(30));
-console.log(fizzbuzz(14));
-console.log(fizzbuzz(25));
-console.log(fizzbuzz(9));
+// console.log(fizzbuzz(30));
+// console.log(fizzbuzz(14));
+// console.log(fizzbuzz(25));
+// console.log(fizzbuzz(9));
 module.exports = { fizzbuzz: fizzbuzz };
 // Tests
 //for (var i = 0; i < 50; i = i + 1) {
