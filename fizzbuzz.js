@@ -10,11 +10,11 @@ var fizzbuzz = function (x) {
 for (x = 0; x <= 60; x=x+1)
 if(x%3===0){
   console.log("fizz");
-};
-if else(x%5===0){
+}
+  else if(x%5===0){
   console.log("buzz");
 }
-if else(x%3===0 && x%5===0){
+ else if(x%3===0 && x%5===0){
   console.log("fizzbuzz");
 }
 else{
