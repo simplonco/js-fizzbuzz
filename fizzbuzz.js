@@ -14,7 +14,7 @@ var fizzbuzz = function (x)  {
   if (x % 5 === 0) {
     together += "buzz";
   }
-
+  module.exports = { fizzbuzz: fizzbuzz };
   console.log (together || x);
 };
 fizzbuzz(31);
