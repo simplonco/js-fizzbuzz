@@ -6,10 +6,19 @@
 
 'use strict';
 
-var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
+var fizzbuzz = function(n) {
+    if (n % 15 == 0) {
+        return 'fizzbuzz';
+    } else if (n % 3 == 0) {
+        return 'fizz';
+    } else if (n % 5 == 0) {
+        return 'buzz';
+    } else {
+        return n
+    }
+    var fizzbuzz = function(x) {}
 };
 
-module.exports = { fizzbuzz: fizzbuzz };
+module.exports = {
+    fizzbuzz: fizzbuzz
+};
