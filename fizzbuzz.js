@@ -8,7 +8,7 @@
 
 var fizzbuzz = function (x) {
 //
-// YOUR CODE GOES HERE
+//test
 //
 };
 
