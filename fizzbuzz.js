@@ -3,23 +3,18 @@
 // convenience to get you started writing code faster.
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
-//ma 1er modification
 
 'use strict';
 
 var fizzbuzz = function (x) {
 //
-for (var i=1; i <= 20; i++)
-{
-    if (i % 15 == 0)
-        console.log("FizzBuzz");
-    else if (i % 3 == 0)
-        console.log("Fizz");
-    else if (i % 5 == 0)
-        console.log("Buzz");
-    else
-        console.log(i);
-}
+if (theNumber is divisible by 3) then
+print "Fizz"
+else if (theNumber is divisible by 5) then
+print "Buzz"
+else /* theNumber is not divisible by 3 or 5 */
+print theNumber
+end if
 //
 };
 
