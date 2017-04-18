@@ -9,7 +9,12 @@
 var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
-//
+if(x<=4){
+  console.log("you are so so");
+}
+else{
+  console.log("anything");
+}
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
