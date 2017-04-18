@@ -10,6 +10,7 @@ var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
 //
+  console.log("pizza");
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
