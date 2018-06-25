@@ -6,6 +6,10 @@
 
 'use strict';
 
+// test
+
+var test = test;
+
 var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
