@@ -5,15 +5,20 @@
 // expected here.
 
 'use strict';
-
 var fizzbuzz = function (x) {
-    if(x != %3 || x != %5){
+    if((x % 3 != 0) || (x % 5 != 0)){
         return (x);
-    }else if(x == %3){
+    }
+    
+    else if(x % 3 == 0){
         return ("fizz");
-    }else if(x == %5){
+    }
+    
+    else if(x % 5 == 0){
         return ("buzz");
-    }else if(x == %3 && x == %5){
+    }
+    
+    else if((x % 3 == 0) && (x % 5 == 0){
         return ("fizzbuzz");
     }
 };
