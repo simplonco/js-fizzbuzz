@@ -17,9 +17,8 @@ var fizzbuzz = function (x) {
     return "buzz";
   }
   else {
-  return x
+   return x;
   }
-};
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
