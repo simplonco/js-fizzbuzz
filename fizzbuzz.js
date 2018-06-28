@@ -22,5 +22,5 @@ var fizzbuzz = function (x) {
   }
   
 };
-fizzbuzz(x);
+
 module.exports = { fizzbuzz: fizzbuzz };
