@@ -13,15 +13,15 @@ var fizzbuzz = function (x) {
   }
   
   if else (x % 3 == 0 ) {
-   return("fizz");
+   return "fizz";
   }
   
   if else (x % 5 == 0 ) {
-    return ("buzz");
+    return "buzz";
   }
   
   else {
-    return (x);
+    return x;
   }
   
 };
