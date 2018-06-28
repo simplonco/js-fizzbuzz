@@ -15,7 +15,7 @@ var fizzbuzz = function (x) {
     return "buzz";
   }
   else if (x % 3 === 0) {
-    print "fizzbuzz";
+    return "fizzbuzz";
   }
   else {
     return "x";
