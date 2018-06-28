@@ -16,9 +16,6 @@ var fizzbuzz = function (x) {
     } else {
         return x;
     }
-//
-// YOUR CODE GOES HERE
-//
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
