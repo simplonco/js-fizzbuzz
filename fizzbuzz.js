@@ -8,14 +8,14 @@
 
 var fizzbuzz = function (x) {
  if (x % 3 && x % 5 !=0){
-      return"fizzbuzz"
+      return "fizzbuzz";
     }
     else if (x % 3 == 0) {
-            return "fizz"}
+            return "fizz";}
     else if (x % 5 == 0) {
-            return "buzz"}
+            return "buzz";}
  else { 
-    return x}
+    return x;}
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
