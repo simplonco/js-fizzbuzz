@@ -9,16 +9,18 @@
 var fizzbuzz = function (x) {
 if( x %3 && x % 5) {
   
-  module.exports("fizzbuzz");
+  return("fizzbuzz");
 } 
-  else { 
-  if( x % 3 == 00) {
-  module.exports("fizz");
+  else if( x % 3 == 00) {
+  return("fizz");
   }
     
-  if( x % 5 == 00)) {
-  module.exports("buzz");
-  
+  else if( x % 5 == 00)) {
+  return("buzz");
+  }
+  else {
+    return(x);
+  }
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
