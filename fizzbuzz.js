@@ -7,15 +7,15 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-if( x %3 && x % 5) {
   
+if( x %3 && x % 5) {
   return("fizzbuzz");
 } 
-  else if( x % 3 == 00) {
+  else if( x % 3===0) {
   return("fizz");
   }
     
-  else if( x % 5 == 00)) {
+  else if( x % 5===0) {
   return("buzz");
   }
   else {
