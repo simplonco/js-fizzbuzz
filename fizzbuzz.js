@@ -10,10 +10,10 @@ var fizzbuzz = function (x) {
  if ( x %  3 &&  x % 5 == O){
     return "fizzbuzz";
   }
-  if (x % 3 == 0){
+  else if (x % 3 == 0){
     return "fizz" ;
   }
-  if (x % 5 == O){
+  else if (x % 5 == O){
     return "buzz";
   }
   else {
