@@ -7,7 +7,7 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-if ( x % 15 == 0) {
+    if ( x % 15 == 0) {
     return "fizzbuzz";
     if ( x % 15 == 0) {
         return "fizzbuzz";
@@ -27,5 +27,6 @@ if ( x % 15 == 0) {
     else {
         return x;
     }
-  };
+ };
+      module.exports = { fizzbuzz: fizzbuzz };
 
