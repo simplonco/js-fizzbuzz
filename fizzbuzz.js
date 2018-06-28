@@ -23,4 +23,3 @@ var fizzbuzz = function (x) {
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
-
