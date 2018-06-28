@@ -9,16 +9,16 @@
 var fizzbuzz = function (x) {
 
   if (x % 5 === 0 && x % 3 === 0) {
-    print "fizz";
+    return "fizz";
   }
   else if (x % 5 === 0) {
-    print "buzz";
+    return "buzz";
   }
   else if (x % 3 === 0) {
     print "fizzbuzz";
   }
   else {
-    print "x";
+    return "x";
   }
   
 };
