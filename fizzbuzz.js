@@ -8,14 +8,17 @@
 
 var fizzbuzz = function (x) {
   
-  if (x % 3 == 0 && x % 5 == 0 ) {
-    println ("fizzbuzz");
-  }
-  if else (x % 3 == 0 ) {
+
+  if (x % 3 == 0 ) {
     println ("fizz");
   }
+  
   if else (x % 5 == 0 ) {
     println ("buzz");
+  }
+  
+  if else (x % 3 == 0 && x % 5 == 0 ) {
+    println ("fizzbuzz");
   }
   else {
     println (x);
