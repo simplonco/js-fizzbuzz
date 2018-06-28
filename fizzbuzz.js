@@ -7,13 +7,16 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-if (x % 15 === 0) {
-    return "fizzbuzz";
-  }else if (x % 5 === 0) {
-    return "buzz";
-  } else if (x % 3 === 0) {
+if ((number % 3 == 0)||(number % 5 == 0)) {
+    if ((number % 3 == 0) && (number % 5 == 0)) {
+     return "fizzbuzz";
+    } else if (number % 3 == 0) {
+      return "fizz";
     } else {
-      return x;
+      return "buzz";
+    }
+  } else {
+    return number;
   }
   };
 module.exports = { fizzbuzz: fizzbuzz };
