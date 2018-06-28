@@ -6,24 +6,22 @@
 'use strict';
  
  var fizzbuzz = function (x) {
--//
--// YOUR CODE GOES HERE
--//
-+  if(X % 3 == 0 && X % 5 == 0){
-+    return "fizzbuzz";
-+  };
-+    
-+  else if(X % 5 == 0){
-+    return "buzz"; 
-+  };
-+  
-+  else if (X % 3 == 0 ){
-+    return "fizz";
-+  };
-+  else {
-+    return "x";
-+  }
-+  
+
+  if(X % 3 == 0 && X % 5 == 0){
+    return "fizzbuzz";
+  };
+    
+  else if(X % 5 == 0){
+    return "buzz"; 
+  };
+  
+  else if (X % 3 == 0 ){
+   return "fizz";
+  };
+  else {
+   return "x";
+  };
+  
  };
  
  module.exports = { fizzbuzz: fizzbuzz };
