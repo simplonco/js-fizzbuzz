@@ -16,9 +16,10 @@ var fizzbuzz = function (x) {
   else if (x % 3 == 0) {
     return "fizz";
   }
-  else {
-    return "x";
-  }
+  
+  else 
+    return x;
+  
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
