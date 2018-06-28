@@ -7,7 +7,7 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-    if(x == %3){
+    if(x != %3 || x != %5){
         return (x);
     }else if(x == %3){
         return ("fizz");
