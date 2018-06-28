@@ -14,7 +14,7 @@ var fizzbuzz = function (x) {
   if (x % 5 == 0) {
   return("Buzz");
 }
-  if ((x % 3 ==0) && (x % 5 ==0)) {
+  if ((x % 3 == 0) && (x % 5 == 0)) {
   return("FizzBuzz");
 }
  else {
