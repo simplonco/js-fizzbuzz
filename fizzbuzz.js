@@ -7,9 +7,17 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
+  if(x%15 == 0){
+    return "Fizzbuzz";
+  }
+  else if (x%3 == 0){
+    return "Fizz";
+  }
+  else if (x%5 == 0){
+    return "Buzz";
+  }
+  else{
+    return "x"
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
