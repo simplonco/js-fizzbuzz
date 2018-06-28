@@ -7,14 +7,14 @@
 'use strict';
 
 var fizzbuzz = function (x) {
- if (x % 3 && x % 5){
-      text("fizzbuzz")
+ if (x % 3 && x % 5 !=0){
+      return"fizzbuzz"
     }
     else { 
           if (x % 3 == 0) {
-            text ("fizz")}
+            return "fizz"}
           if (x % 5 == 0) {
-            text ("buzz")}
+            return "buzz"}
 }};
 
 module.exports = { fizzbuzz: fizzbuzz };
