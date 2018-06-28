@@ -13,7 +13,7 @@ if (x % 15 === 0) {
     return "buzz";
   } else if (x % 3 === 0) {
     } else {
-    return x;
+      return x;
   }
   };
 module.exports = { fizzbuzz: fizzbuzz };
