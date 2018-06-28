@@ -13,11 +13,11 @@ if(x % 15 == 0) {
  return "fizzbuzz";
   }
   
-  if else (x % 3 == 0) {
+  else if (x % 3 == 0) {
    return "fizz";
   }
   
-  if else (x % 5 == 0) {
+  else if (x % 5 == 0) {
 return "buzz";
   }
   
