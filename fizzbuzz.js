@@ -8,21 +8,21 @@
 
 var fizzbuzz = function (x) {
   
-if(x % 3 == 0 && x % 5 == 0) {
+if(x % 15 == 0) {
   
-  println ("fizzbuzz");
+ return ("fizzbuzz");
   }
   
   if else (x % 3 == 0) {
-    println ("fizz");
+   return ("fizz");
   }
   
   if else (x % 5 == 0) {
-    println ("buzz");
+return ("buzz");
   }
   
   else {
-    println "x"
+   return "x"
   }
     
 };
