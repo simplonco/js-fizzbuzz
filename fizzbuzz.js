@@ -16,8 +16,8 @@ var fizzbuzz = function (x) {
   else if (x%5 == 0){
     return "Buzz";
   }
-  else{
-    return "x"
+  else
+    return x;
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
