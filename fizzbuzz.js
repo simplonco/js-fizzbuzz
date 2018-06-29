@@ -19,7 +19,7 @@ var fizzbuzz = function (x) {
     }  
     else {
         return x;
-    };
+    }
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
