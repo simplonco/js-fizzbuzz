@@ -15,8 +15,6 @@ var fizzbuzz = function (x) {
 -1 Entrer une valeur dans une variable
 -2 SI la valeur est divisible par 3 && N'EST PAS divisible par 5
     console.log("fizz")
--3 SINON
-    console.error
 
     Nombre est un multiple de quelque chose :
 
@@ -25,20 +23,15 @@ var fizzbuzz = function (x) {
     */
 
 
-if (x %3 === 0 && x% 5 !== 0 ){
-    return "fizz"
+if (x%3 === 0 && x%5 !== 0 ){
+    return 'fizz'
 }
-else
-//BUZZ
-if (x %5 === 0 && x% 3 !== 0 ){
-    return "buzz"
+else if (x%5 === 0 && x%3 !== 0 ){
+    return 'buzz'
 }
-else
-//FIZZBUZZ
-if (x %5 === 0 &&  x%3 === 0){
+else if (x%5 === 0 && x%3 === 0){
     return 'fizzbuzz'
 }
-//Afficher le Nombre si aucunes conditions n'est rempli
 else{
     return x
 }
