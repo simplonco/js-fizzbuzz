@@ -7,18 +7,18 @@
 "use strict";
 
 var fizzbuzz = function(x) {
-	for (var x = 0; x <= 30; x++) {
-		if (x % 3 === 0 && x % 5 === 0) {
+	for (let i = 0; i <= x; i++) {
+		if (i % 3 === 0 && i % 5 === 0) {
 			return "fizzbuzz";
-		} else if (x % 3 === 0) {
+		} else if (i % 3 === 0) {
 			return "fizz";
-		} else if (x % 5 === 0) {
+		} else if (i % 5 === 0) {
 			return "buzz";
 		} else {
-			return x;
+			return i;
 		}
 	}
 };
-fizzbuzz(1)
+fizzbuzz(100);
 
 module.exports = { fizzbuzz: fizzbuzz };
