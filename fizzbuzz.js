@@ -26,12 +26,12 @@ var fizzbuzz = function (x) {
 
 
 if (x %3 === 0 && x% 5 !== 0 ){
-    return "Fizz"
+    return "fizz"
 }
 else
 //BUZZ
 if (x %5 === 0 && x% 3 !== 0 ){
-    return "Buzz"
+    return "buzz"
 }
 else
 //FIZZBUZZ
