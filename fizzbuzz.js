@@ -7,7 +7,7 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-//
+
 // YOUR CODE GOES HERE
 
 //fizz
@@ -24,28 +24,23 @@ var fizzbuzz = function (x) {
 
     */
 
-let nb = 9
 
-if (nb %3 === 0 && nb % 5 !== 0 ){
-    console.log("Fizz")
+if (x %3 === 0 && x% 5 !== 0 ){
+    return "Fizz"
 }
 else
-
 //BUZZ
-
-
-if (nb %5 === 0 && nb % 3 !== 0 ){
-    console.log("Buzz")
+if (x %5 === 0 && x% 3 !== 0 ){
+    return "Buzz"
 }
 else
-
 //FIZZBUZZ
-if (nb %5 === 0 &&  nb %3 === 0){
-    console.log("FizzBuzz")
+if (x %5 === 0 &&  x%3 === 0){
+    return 'fizzbuzz'
 }
 //Afficher le Nombre si aucunes conditions n'est rempli
 else{
-    console.log(nb)
+    return x
 }
 //
 };
