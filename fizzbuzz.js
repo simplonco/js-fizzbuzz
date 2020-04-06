@@ -11,19 +11,19 @@ var fizzbuzz = function(x) {
 	for (let x = 1; x <= 100; x++) {
 		// condition "fizzbuzz" si x multiple de 3 et 5
 		if (x % 3 === 0 && x % 5 === 0) {
-			return ("fizzbuzz");
+			return "fizzbuzz";
 
 			// condition "fizz" si x multipe de
 		} else if (x % 3 === 0) {
-			return ("fizz");
+			return "fizz";
 
 			// condition "buzz" si x multiple de 5
 		} else if (x % 5 === 0) {
-			return ("buzz");
+			return "buzz";
 
 			//affiche x si pas multiple de 5 ni de 5
 		} else {
-			return (x);
+			return x;
 		}
 	}
 };
