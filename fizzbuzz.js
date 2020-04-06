@@ -8,15 +8,15 @@
 
 var fizzbuzz = function (x) {
 //
-        if (x % 3 === 0 && x % 5 !== 0) {
-            console.log("fizz");
-        } else if (x % 5 === 0 && x % 3 !== 0) {
-            console.log("buzz");
-        } else if (x % 3 === 0 && x % 5 === 0) {
-            console.log("fizzbuzz");
-        } else {
-            console.log(x);
-        }// YOUR CODE GOES HERE
+    if (x % 3 === 0 && x % 5 !== 0) {
+        return "fizz";
+    } else if (x % 5 === 0 && x % 3 !== 0) {
+        return "buzz";
+    } else if (x % 3 === 0 && x % 5 === 0) {
+        return "fizzbuzz";
+    } else {
+        return x;
+    }// YOUR CODE GOES HERE
 //
 };
 
