@@ -7,21 +7,22 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-    for(var i= 1; i <= 100; i++){
-        console.log(i);
-        if(i % 5 ===0; i % 3 ===0){
+    for(var x= 1; x <= 100; x++){
+        console.log(x);
+        if(x % 5 ===0; x % 3 ===0){
             console.log("fizzbuzz")
         }
-        else if(i % 3 !==0; i % 5 !==0){
-            console.log(i)
+        else if(x % 3 !==0; x % 5 !==0){
+            console.log(x)
         }
-        else if(i % 3 ===0; i % 5 !== 0){
+        else if(x % 3 ===0; x % 5 !== 0){
             console.log("fizz")
         }
-        else if(i % 5 ===0; i % 3 !==0){
+        else if(x % 5 ===0; x % 3 !==0){
             console.log("buzz");
         }
     }
+}
     
     module.exports = { fizzbuzz: fizzbuzz };
     
