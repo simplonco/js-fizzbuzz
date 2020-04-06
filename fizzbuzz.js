@@ -12,7 +12,7 @@ var fizzbuzz = function (x) {
             console.log("fizz");
         } else if (x % 5 === 0 && x % 3 !== 0) {
             console.log("buzz");
-        } else if (x % 5 === 0) {
+        } else if (x % 3 === 0 && x % 5 === 0) {
             console.log("fizzbuzz");
         } else {
             console.log(x);
