@@ -8,22 +8,22 @@
 
 var fizzbuzz = function(x) {
 	// declaration de la boucle( init nombre, condition de la boucle et itération)
-	for (let nombre = 1; nombre <= 100; nombre++) {
-		// condition "fizzbuzz" si nombre multiple de 3 et 5
-		if (nombre % 3 === 0 && nombre % 5 === 0) {
+	for (let x = 1; x <= 100; x++) {
+		// condition "fizzbuzz" si x multiple de 3 et 5
+		if (x % 3 === 0 && x % 5 === 0) {
 			console.log("fizzbuzz");
 
-			// condition "fizz" si nombre multipe de
-		} else if (nombre % 3 === 0) {
+			// condition "fizz" si x multipe de
+		} else if (x % 3 === 0) {
 			console.log("fizz");
 
-			// condition "buzz" si nombre multiple de 5
-		} else if (nombre % 5 === 0) {
+			// condition "buzz" si x multiple de 5
+		} else if (x % 5 === 0) {
 			console.log("buzz");
 
-			//affiche nombre si pas multiple de 5 ni de 5
+			//affiche x si pas multiple de 5 ni de 5
 		} else {
-			console.log(nombre);
+			console.log(x);
 		}
 	}
 };
