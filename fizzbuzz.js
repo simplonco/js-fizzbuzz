@@ -7,7 +7,7 @@
 "use strict";
 
 var fizzbuzz = function(x) {
-	for (let x = 0; x <= 30; x++) {
+	for (var x = 0; x <= 30; x++) {
 		if (x % 3 === 0 && x % 5 === 0) {
 			return "fizzbuzz";
 		} else if (x % 3 === 0) {
@@ -19,5 +19,6 @@ var fizzbuzz = function(x) {
 		}
 	}
 };
+fizzbuzz(1)
 
 module.exports = { fizzbuzz: fizzbuzz };
