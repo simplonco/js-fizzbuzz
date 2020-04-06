@@ -8,16 +8,14 @@
 
 let fizzbuzz = function (number) {
     if ((number % 3 === 0) && (number % 5 === 0)) {
-        console.log("fizzbuzz");
+        return "fizzbuzz";
     } else if (number % 3 === 0) {
-        console.log("fizz");
+        return "fizz";
     } else if (number % 5 === 0) {
-        console.log("buzz");
+        return "buzz";
     } else {
-        console.log(number);
+        return number;
     }  
 }
-
-fizzbuzz(15);
 
 module.exports = { fizzbuzz: fizzbuzz };
