@@ -7,7 +7,7 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-  if (X % 15 == 0) {
+  if (x % 15 == 0) {
   return " fizzbuzz"
   }
   
@@ -18,7 +18,7 @@ var fizzbuzz = function (x) {
     return "fizz"
   }
   else {
-    return "x"
+    return x
   }
   
 };
