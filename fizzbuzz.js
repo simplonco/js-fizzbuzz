@@ -8,7 +8,7 @@
 
 var fizzbuzz = function(x) {
 	// declaration de la boucle( init nombre, condition de la boucle et itération)
-	for (let nombre = 1; nombre <= 50; nombre++) {
+	for (let nombre = 1; nombre <= 100; nombre++) {
 		// condition "fizzbuzz" si nombre multiple de 3 et 5
 		if (nombre % 3 === 0 && nombre % 5 === 0) {
 			console.log("fizzbuzz");
