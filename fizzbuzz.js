@@ -10,6 +10,23 @@ var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
 //
+    if ((x%3 === 0) && (x%5 ===0)){
+        return "fizzbuzz"
+    };
+    if ((x%3 === 0) && (x%5 !== 0)) {
+        return "fizz";
+    };
+    if ((x%5 === 0) && (x%3 !==0)) {
+        return "buzz"
+    }
+    else {
+       return x 
+    }
 };
 
+console.log(fizzbuzz(2))
+console.log(fizzbuzz(5))
+console.log(fizzbuzz(6))
+console.log(fizzbuzz(11))
+console.log(fizzbuzz(30))
 module.exports = { fizzbuzz: fizzbuzz };
