@@ -9,6 +9,44 @@
 var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
+
+//fizz
+/*
+-1 Entrer une valeur dans une variable
+-2 SI la valeur est divisible par 3 && N'EST PAS divisible par 5
+    console.log("fizz")
+-3 SINON
+    console.error
+
+    Nombre est un multiple de quelque chose :
+
+    SI le modulos du nombre / ... =0 Alors le nombre est un multiple de ...
+
+    */
+
+let nb = 9
+
+if (nb %3 === 0 && nb % 5 !== 0 ){
+    console.log("Fizz")
+}
+else
+
+//BUZZ
+
+
+if (nb %5 === 0 && nb % 3 !== 0 ){
+    console.log("Buzz")
+}
+else
+
+//FIZZBUZZ
+if (nb %5 === 0 &&  nb %3 === 0){
+    console.log("FizzBuzz")
+}
+//Afficher le Nombre si aucunes conditions n'est rempli
+else{
+    console.log(nb)
+}
 //
 };
 
