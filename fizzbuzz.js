@@ -6,10 +6,26 @@
 
 'use strict';
 
-var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
-};
+let fizzbuzz = function (x) {
+  
+    if (!(x%3) && (x%5)){
+       console.log("fizz");
+    }
+
+    else if (!(x%5) && (x%3)) {
+        console.log("buzz")
+    }
+
+    else if (!(x%5) && !(x%3)) {
+        console.log("fizzbuzz")
+    }
+
+    else{
+    console.log(x)
+    }
+
+    }
+
+    
 
 module.exports = { fizzbuzz: fizzbuzz };
