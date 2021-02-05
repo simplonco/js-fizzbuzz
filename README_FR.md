@@ -12,7 +12,6 @@
 * afficher le `nombre` si l'entier est n'est pas un multiple de `3` ou `5`
 
 ## Exemples
-
 ```javascript
 fizzbuzz(2) => 2
 fizzbuzz(5) => "buzz"
