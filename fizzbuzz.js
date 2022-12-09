@@ -6,10 +6,34 @@
 
 'use strict';
 
+
+
 var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
+
+ 
+
+    if (x % 3 === 0 && x % 5 !== 0) {
+        console.log("fizz");
+    }
+
+    else if (x % 5 === 0 && x % 3 !== 0) {
+        console.log("buzz");
+    }
+
+    else if (x % 5 === 0 && x % 3 === 0) {
+        console.log("fizzbuzz");
+    }
+
+    else {
+        console.log(x)
+    };
+
 };
+
+fizzbuzz(25)
+fizzbuzz(3)
+fizzbuzz(30)
+fizzbuzz(55)
+fizzbuzz(2)
 
 module.exports = { fizzbuzz: fizzbuzz };
