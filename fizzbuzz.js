@@ -1,15 +1,23 @@
-//
-// This is only a SKELETON file for the 'FizzBuzz' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-// Make sure to look at test.script.js--that should give you some hints about what is
-// expected here.
+function fizzbuzz(x){
+    let m3 = x%3==0;
+    let m5 = x%5==0;
 
-'use strict';
-
-var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
+    let retour = "";
+    if(m3 && !m5){
+        retour = "fizz";
+    }
+    else if(m5 && !m3){
+        retour = "buzz";
+    }
+    else if(m3 && m5){
+        retour = "fizzbuzz";
+    }
+    else{
+        retour = x;
+    }
+    return retour;
 };
 
-module.exports = { fizzbuzz: fizzbuzz };
+let nbTest = [0, 3, 4 ,5, 10 ,15, ,17, 21, 101,];
+for(var i = 0; i<nbTest.length; i++)
+console.log("Pour "+nbTest[i]+" : ", fizzbuzz(nbTest[i]));
